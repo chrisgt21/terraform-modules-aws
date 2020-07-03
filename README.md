@@ -3,6 +3,9 @@ This project will demonstrate how to structure your Terraform modules so that th
 
 ## Lambda
 ### Variables
+* function_name (string) - name of the lambda function
+* bucket (string) - name of the S3 bucket with the deployment package
+* key (string) - name of the deployment package in S3
 
 ### Usage
 Run the following commands to test the module:
